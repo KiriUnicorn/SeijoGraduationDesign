@@ -1,0 +1,294 @@
+2025-06-05 11:12:24 [main] INFO  c.c.backend.CompetitionApplication - Starting CompetitionApplication using Java 17.0.9 on 炸猪排的笔记本 with PID 5624 (D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes started by Hola in D:\Study\Swan\Essay\CompetitionManageSystem\backend)
+2025-06-05 11:12:24 [main] DEBUG c.c.backend.CompetitionApplication - Running with Spring Boot v2.7.11, Spring v5.3.27
+2025-06-05 11:12:24 [main] INFO  c.c.backend.CompetitionApplication - No active profile set, falling back to 1 default profile: "default"
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\AdminMapper.class]
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\AnnouncementMapper.class]
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\CompetitionLevelMapper.class]
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\CompetitionMapper.class]
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\DepartmentMapper.class]
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\HostUnitMapper.class]
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\RegistrationMapper.class]
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\ScoreMapper.class]
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\StudentMapper.class]
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\TeacherMapper.class]
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\TeamMapper.class]
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\TeamMemberMapper.class]
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\UserMapper.class]
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'adminMapper' and 'com.competition.backend.mapper.AdminMapper' mapperInterface
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'adminMapper'.
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'announcementMapper' and 'com.competition.backend.mapper.AnnouncementMapper' mapperInterface
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'announcementMapper'.
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'competitionLevelMapper' and 'com.competition.backend.mapper.CompetitionLevelMapper' mapperInterface
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'competitionLevelMapper'.
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'competitionMapper' and 'com.competition.backend.mapper.CompetitionMapper' mapperInterface
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'competitionMapper'.
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'departmentMapper' and 'com.competition.backend.mapper.DepartmentMapper' mapperInterface
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'departmentMapper'.
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'hostUnitMapper' and 'com.competition.backend.mapper.HostUnitMapper' mapperInterface
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'hostUnitMapper'.
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'registrationMapper' and 'com.competition.backend.mapper.RegistrationMapper' mapperInterface
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'registrationMapper'.
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'scoreMapper' and 'com.competition.backend.mapper.ScoreMapper' mapperInterface
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'scoreMapper'.
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentMapper' and 'com.competition.backend.mapper.StudentMapper' mapperInterface
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentMapper'.
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'teacherMapper' and 'com.competition.backend.mapper.TeacherMapper' mapperInterface
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'teacherMapper'.
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'teamMapper' and 'com.competition.backend.mapper.TeamMapper' mapperInterface
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'teamMapper'.
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'teamMemberMapper' and 'com.competition.backend.mapper.TeamMemberMapper' mapperInterface
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'teamMemberMapper'.
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.competition.backend.mapper.UserMapper' mapperInterface
+2025-06-05 11:12:26 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-06-05 11:12:27 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-05 11:12:27 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-06-05 11:12:27 [main] INFO  o.a.c.c.C.[.[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2025-06-05 11:12:27 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-06-05 11:12:27 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-06-05 11:12:28 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: bfc62976-19ce-49b9-a0c8-092be9888aa3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-05 11:12:28 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7af1d072, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27ffd9f8, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c33fcf8, org.springframework.security.web.header.HeaderWriterFilter@478967eb, org.springframework.security.web.authentication.logout.LogoutFilter@6818fd48, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@716f94c1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1d99ee1b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@642c6461, org.springframework.security.web.session.SessionManagementFilter@259287ac, org.springframework.security.web.access.ExceptionTranslationFilter@734ce281, org.springframework.security.web.access.intercept.AuthorizationFilter@7b5021d1]
+2025-06-05 11:12:29 [main] INFO  c.c.backend.CompetitionApplication - Started CompetitionApplication in 5.798 seconds (JVM running for 7.586)
+2025-06-05 11:12:30 [main] INFO  c.c.b.c.ExcelTemplateInitializer - Excel模板生成成功
+2025-06-05 11:29:09 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-05 11:29:09 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /auth/teacher/login
+2025-06-05 11:29:09 [http-nio-8080-exec-1] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:29:09 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:29:09 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /auth/teacher/login
+2025-06-05 11:29:09 [http-nio-8080-exec-1] INFO  c.c.b.controller.AuthController - 教师登录请求: li@example.com
+2025-06-05 11:29:09 [http-nio-8080-exec-1] INFO  c.c.b.s.impl.TeacherServiceImpl - 开始教师登录验证: li@example.com
+2025-06-05 11:29:10 [http-nio-8080-exec-1] INFO  c.c.b.s.impl.TeacherServiceImpl - 找到教师记录: li@example.com
+2025-06-05 11:29:10 [http-nio-8080-exec-1] INFO  c.c.b.s.impl.TeacherServiceImpl - 输入的密码: 123123
+2025-06-05 11:29:10 [http-nio-8080-exec-1] INFO  c.c.b.s.impl.TeacherServiceImpl - 数据库中的密码: $2a$10$wKJeWvqM7eHNI02bWccto.GtqKW0QYjIaVzJCocM9H7GixM3BdmTa
+2025-06-05 11:29:10 [http-nio-8080-exec-1] INFO  c.c.b.s.impl.TeacherServiceImpl - 密码验证结果: true
+2025-06-05 11:29:10 [http-nio-8080-exec-1] INFO  c.c.b.s.impl.TeacherServiceImpl - 密码验证成功，生成token
+2025-06-05 11:29:10 [http-nio-8080-exec-1] INFO  c.c.b.controller.AuthController - 教师登录成功: li@example.com
+2025-06-05 11:29:10 [http-nio-8080-exec-1] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:29:12 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /announcements/latest?limit=3
+2025-06-05 11:29:12 [http-nio-8080-exec-2] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:29:12 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:29:12 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /announcements/latest?limit=3
+2025-06-05 11:29:12 [http-nio-8080-exec-2] INFO  c.c.b.c.AnnouncementController - 获取最新公告列表，限制数量：3
+2025-06-05 11:29:12 [http-nio-8080-exec-2] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:29:12 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /departments
+2025-06-05 11:29:12 [http-nio-8080-exec-3] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:29:12 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:29:12 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /departments
+2025-06-05 11:29:13 [http-nio-8080-exec-3] INFO  c.c.b.c.DepartmentController - 获取所有院系信息
+2025-06-05 11:29:13 [http-nio-8080-exec-3] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:29:13 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /competitions/hot?limit=3
+2025-06-05 11:29:13 [http-nio-8080-exec-4] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:29:13 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:29:13 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /competitions/hot?limit=3
+2025-06-05 11:29:13 [http-nio-8080-exec-4] INFO  c.c.b.c.CompetitionController - 获取热门竞赛列表，限制数量：3
+2025-06-05 11:29:13 [http-nio-8080-exec-4] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:29:16 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /competitions?page=1&pageSize=10&status=&keyword=
+2025-06-05 11:29:16 [http-nio-8080-exec-6] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:29:16 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:29:16 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /competitions?page=1&pageSize=10&status=&keyword=
+2025-06-05 11:29:16 [http-nio-8080-exec-6] INFO  c.c.b.c.CompetitionController - Listing competitions with status: 
+2025-06-05 11:29:16 [http-nio-8080-exec-6] INFO  c.c.b.s.impl.CompetitionServiceImpl - Finding competitions by status: 
+2025-06-05 11:29:17 [http-nio-8080-exec-6] INFO  c.c.b.s.impl.CompetitionServiceImpl - Found 11 competitions
+2025-06-05 11:29:17 [http-nio-8080-exec-6] INFO  c.c.b.c.CompetitionController - Found 11 competitions
+2025-06-05 11:29:17 [http-nio-8080-exec-6] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:30:51 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /competitions/findAll
+2025-06-05 11:30:51 [http-nio-8080-exec-7] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:30:51 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:30:51 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /competitions/findAll
+2025-06-05 11:30:51 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /host-units
+2025-06-05 11:30:51 [http-nio-8080-exec-10] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:30:51 [http-nio-8080-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:30:51 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /host-units
+2025-06-05 11:30:51 [http-nio-8080-exec-10] INFO  c.c.b.controller.HostUnitController - 获取所有主办单位信息
+2025-06-05 11:30:51 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /departments
+2025-06-05 11:30:51 [http-nio-8080-exec-9] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:30:51 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:30:51 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /departments
+2025-06-05 11:30:51 [http-nio-8080-exec-9] INFO  c.c.b.c.DepartmentController - 获取所有院系信息
+2025-06-05 11:30:51 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /competition-levels/findAll
+2025-06-05 11:30:51 [http-nio-8080-exec-8] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:30:51 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:30:51 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /competition-levels/findAll
+2025-06-05 11:30:51 [http-nio-8080-exec-9] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:30:51 [http-nio-8080-exec-8] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:30:51 [http-nio-8080-exec-10] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:30:51 [http-nio-8080-exec-7] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:31:21 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /registrations/teacher/review?status=
+2025-06-05 11:31:21 [http-nio-8080-exec-1] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:31:21 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:31:21 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /registrations/teacher/review?status=
+2025-06-05 11:31:21 [http-nio-8080-exec-1] INFO  c.c.b.c.RegistrationController - 获取教师审核列表 - 开始处理请求
+2025-06-05 11:31:21 [http-nio-8080-exec-1] INFO  c.c.b.c.RegistrationController - Authorization header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidGVhY2hlciIsImRlcGFydG1lbnRJZCI6MSwibmFtZSI6IuadjuaVmeaOiCIsImV4cCI6MTc0OTE4MDU1MCwidXNlcklkIjo1MDEwMDQsImlhdCI6MTc0OTA5NDE1MCwiZW1haWwiOiJsaUBleGFtcGxlLmNvbSJ9.hv1SDEAHq2DR3tY5TBADaARzPUv0SMR9zdHRYG_N3uI
+2025-06-05 11:31:21 [http-nio-8080-exec-1] INFO  c.c.b.c.RegistrationController - 提取的token: eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidGVhY2hlciIsImRlcGFydG1lbnRJZCI6MSwibmFtZSI6IuadjuaVmeaOiCIsImV4cCI6MTc0OTE4MDU1MCwidXNlcklkIjo1MDEwMDQsImlhdCI6MTc0OTA5NDE1MCwiZW1haWwiOiJsaUBleGFtcGxlLmNvbSJ9.hv1SDEAHq2DR3tY5TBADaARzPUv0SMR9zdHRYG_N3uI
+2025-06-05 11:31:22 [http-nio-8080-exec-1] INFO  c.c.b.c.RegistrationController - 从token中获取的教师ID: 501004
+2025-06-05 11:31:22 [http-nio-8080-exec-1] INFO  c.c.b.c.RegistrationController - 成功获取审核列表，数量: 3
+2025-06-05 11:31:22 [http-nio-8080-exec-1] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:31:32 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /statistics/department-registration
+2025-06-05 11:31:32 [http-nio-8080-exec-2] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:31:32 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:31:32 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /statistics/department-registration
+2025-06-05 11:31:32 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /statistics/grade-registration
+2025-06-05 11:31:32 [http-nio-8080-exec-3] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:31:32 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:31:32 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /statistics/grade-registration
+2025-06-05 11:31:32 [http-nio-8080-exec-3] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:31:32 [http-nio-8080-exec-2] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:31:48 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /competitions?page=1&pageSize=10&status=pending&keyword=
+2025-06-05 11:31:48 [http-nio-8080-exec-4] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:31:48 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:31:48 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /competitions?page=1&pageSize=10&status=pending&keyword=
+2025-06-05 11:31:48 [http-nio-8080-exec-4] INFO  c.c.b.c.CompetitionController - Listing competitions with status: pending
+2025-06-05 11:31:48 [http-nio-8080-exec-4] INFO  c.c.b.s.impl.CompetitionServiceImpl - Finding competitions by status: pending
+2025-06-05 11:31:48 [http-nio-8080-exec-4] INFO  c.c.b.s.impl.CompetitionServiceImpl - Found 3 competitions
+2025-06-05 11:31:48 [http-nio-8080-exec-4] INFO  c.c.b.c.CompetitionController - Found 3 competitions
+2025-06-05 11:31:48 [http-nio-8080-exec-4] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:31:49 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /competitions?page=1&pageSize=10&status=available&keyword=
+2025-06-05 11:31:49 [http-nio-8080-exec-6] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:31:49 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:31:49 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /competitions?page=1&pageSize=10&status=available&keyword=
+2025-06-05 11:31:49 [http-nio-8080-exec-6] INFO  c.c.b.c.CompetitionController - Listing competitions with status: available
+2025-06-05 11:31:49 [http-nio-8080-exec-6] INFO  c.c.b.s.impl.CompetitionServiceImpl - Finding competitions by status: available
+2025-06-05 11:31:49 [http-nio-8080-exec-6] INFO  c.c.b.s.impl.CompetitionServiceImpl - Found 8 competitions
+2025-06-05 11:31:49 [http-nio-8080-exec-6] INFO  c.c.b.c.CompetitionController - Found 8 competitions
+2025-06-05 11:31:49 [http-nio-8080-exec-6] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:31:49 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /competitions?page=1&pageSize=10&status=active&keyword=
+2025-06-05 11:31:49 [http-nio-8080-exec-5] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:31:49 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:31:49 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /competitions?page=1&pageSize=10&status=active&keyword=
+2025-06-05 11:31:49 [http-nio-8080-exec-5] INFO  c.c.b.c.CompetitionController - Listing competitions with status: active
+2025-06-05 11:31:49 [http-nio-8080-exec-5] INFO  c.c.b.s.impl.CompetitionServiceImpl - Finding competitions by status: active
+2025-06-05 11:31:49 [http-nio-8080-exec-5] INFO  c.c.b.s.impl.CompetitionServiceImpl - Found 0 competitions
+2025-06-05 11:31:49 [http-nio-8080-exec-5] INFO  c.c.b.c.CompetitionController - Found 0 competitions
+2025-06-05 11:31:49 [http-nio-8080-exec-5] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:31:50 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /competitions?page=1&pageSize=10&status=ended&keyword=
+2025-06-05 11:31:50 [http-nio-8080-exec-9] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:31:50 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:31:50 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /competitions?page=1&pageSize=10&status=ended&keyword=
+2025-06-05 11:31:50 [http-nio-8080-exec-9] INFO  c.c.b.c.CompetitionController - Listing competitions with status: ended
+2025-06-05 11:31:50 [http-nio-8080-exec-9] INFO  c.c.b.s.impl.CompetitionServiceImpl - Finding competitions by status: ended
+2025-06-05 11:31:50 [http-nio-8080-exec-9] INFO  c.c.b.s.impl.CompetitionServiceImpl - Found 0 competitions
+2025-06-05 11:31:50 [http-nio-8080-exec-9] INFO  c.c.b.c.CompetitionController - Found 0 competitions
+2025-06-05 11:31:50 [http-nio-8080-exec-9] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:31:51 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /competitions?page=1&pageSize=10&status=&keyword=
+2025-06-05 11:31:51 [http-nio-8080-exec-8] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:31:51 [http-nio-8080-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:31:51 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /competitions?page=1&pageSize=10&status=&keyword=
+2025-06-05 11:31:51 [http-nio-8080-exec-8] INFO  c.c.b.c.CompetitionController - Listing competitions with status: 
+2025-06-05 11:31:51 [http-nio-8080-exec-8] INFO  c.c.b.s.impl.CompetitionServiceImpl - Finding competitions by status: 
+2025-06-05 11:31:51 [http-nio-8080-exec-8] INFO  c.c.b.s.impl.CompetitionServiceImpl - Found 11 competitions
+2025-06-05 11:31:51 [http-nio-8080-exec-8] INFO  c.c.b.c.CompetitionController - Found 11 competitions
+2025-06-05 11:31:51 [http-nio-8080-exec-8] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:32:05 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /announcements/findAll?page=1&pageSize=10
+2025-06-05 11:32:05 [http-nio-8080-exec-1] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:32:05 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:32:05 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /announcements/findAll?page=1&pageSize=10
+2025-06-05 11:32:05 [http-nio-8080-exec-1] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:32:08 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /announcements/latest?limit=3
+2025-06-05 11:32:08 [http-nio-8080-exec-3] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:32:08 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:32:08 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /announcements/latest?limit=3
+2025-06-05 11:32:08 [http-nio-8080-exec-3] INFO  c.c.b.c.AnnouncementController - 获取最新公告列表，限制数量：3
+2025-06-05 11:32:08 [http-nio-8080-exec-3] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:32:08 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /competitions/hot?limit=3
+2025-06-05 11:32:08 [http-nio-8080-exec-2] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:32:08 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:32:08 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /competitions/hot?limit=3
+2025-06-05 11:32:08 [http-nio-8080-exec-2] INFO  c.c.b.c.CompetitionController - 获取热门竞赛列表，限制数量：3
+2025-06-05 11:32:08 [http-nio-8080-exec-2] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:32:12 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /competitions?page=1&pageSize=10&status=&keyword=
+2025-06-05 11:32:12 [http-nio-8080-exec-4] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:32:12 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:32:12 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /competitions?page=1&pageSize=10&status=&keyword=
+2025-06-05 11:32:12 [http-nio-8080-exec-4] INFO  c.c.b.c.CompetitionController - Listing competitions with status: 
+2025-06-05 11:32:12 [http-nio-8080-exec-4] INFO  c.c.b.s.impl.CompetitionServiceImpl - Finding competitions by status: 
+2025-06-05 11:32:12 [http-nio-8080-exec-4] INFO  c.c.b.s.impl.CompetitionServiceImpl - Found 11 competitions
+2025-06-05 11:32:12 [http-nio-8080-exec-4] INFO  c.c.b.c.CompetitionController - Found 11 competitions
+2025-06-05 11:32:12 [http-nio-8080-exec-4] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:32:19 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /departments
+2025-06-05 11:32:19 [http-nio-8080-exec-6] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:32:19 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:32:19 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /departments
+2025-06-05 11:32:19 [http-nio-8080-exec-6] INFO  c.c.b.c.DepartmentController - 获取所有院系信息
+2025-06-05 11:32:19 [http-nio-8080-exec-6] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:32:28 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /registrations/teacher/review?status=
+2025-06-05 11:32:28 [http-nio-8080-exec-5] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:32:28 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:32:28 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /registrations/teacher/review?status=
+2025-06-05 11:32:28 [http-nio-8080-exec-5] INFO  c.c.b.c.RegistrationController - 获取教师审核列表 - 开始处理请求
+2025-06-05 11:32:28 [http-nio-8080-exec-5] INFO  c.c.b.c.RegistrationController - Authorization header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidGVhY2hlciIsImRlcGFydG1lbnRJZCI6MSwibmFtZSI6IuadjuaVmeaOiCIsImV4cCI6MTc0OTE4MDU1MCwidXNlcklkIjo1MDEwMDQsImlhdCI6MTc0OTA5NDE1MCwiZW1haWwiOiJsaUBleGFtcGxlLmNvbSJ9.hv1SDEAHq2DR3tY5TBADaARzPUv0SMR9zdHRYG_N3uI
+2025-06-05 11:32:28 [http-nio-8080-exec-5] INFO  c.c.b.c.RegistrationController - 提取的token: eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidGVhY2hlciIsImRlcGFydG1lbnRJZCI6MSwibmFtZSI6IuadjuaVmeaOiCIsImV4cCI6MTc0OTE4MDU1MCwidXNlcklkIjo1MDEwMDQsImlhdCI6MTc0OTA5NDE1MCwiZW1haWwiOiJsaUBleGFtcGxlLmNvbSJ9.hv1SDEAHq2DR3tY5TBADaARzPUv0SMR9zdHRYG_N3uI
+2025-06-05 11:32:28 [http-nio-8080-exec-5] INFO  c.c.b.c.RegistrationController - 从token中获取的教师ID: 501004
+2025-06-05 11:32:28 [http-nio-8080-exec-5] INFO  c.c.b.c.RegistrationController - 成功获取审核列表，数量: 3
+2025-06-05 11:32:28 [http-nio-8080-exec-5] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:32:31 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /departments
+2025-06-05 11:32:31 [http-nio-8080-exec-9] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:32:31 [http-nio-8080-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:32:31 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /departments
+2025-06-05 11:32:31 [http-nio-8080-exec-9] INFO  c.c.b.c.DepartmentController - 获取所有院系信息
+2025-06-05 11:32:31 [http-nio-8080-exec-9] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 11:32:45 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /departments
+2025-06-05 11:32:45 [http-nio-8080-exec-7] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Set SecurityContextHolder to empty SecurityContext
+2025-06-05 11:32:45 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-05 11:32:45 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /departments
+2025-06-05 11:32:45 [http-nio-8080-exec-7] INFO  c.c.b.c.DepartmentController - 获取所有院系信息
+2025-06-05 11:32:45 [http-nio-8080-exec-7] DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - Cleared SecurityContextHolder to complete request
+2025-06-05 12:52:18 [main] INFO  c.c.backend.CompetitionApplication - Starting CompetitionApplication using Java 17.0.9 on 炸猪排的笔记本 with PID 20160 (D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes started by Hola in D:\Study\Swan\Essay\CompetitionManageSystem\backend)
+2025-06-05 12:52:18 [main] DEBUG c.c.backend.CompetitionApplication - Running with Spring Boot v2.7.11, Spring v5.3.27
+2025-06-05 12:52:18 [main] INFO  c.c.backend.CompetitionApplication - No active profile set, falling back to 1 default profile: "default"
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\AdminMapper.class]
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\AnnouncementMapper.class]
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\CompetitionLevelMapper.class]
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\CompetitionMapper.class]
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\DepartmentMapper.class]
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\HostUnitMapper.class]
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\RegistrationMapper.class]
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\ScoreMapper.class]
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\StudentMapper.class]
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\TeacherMapper.class]
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\TeamMapper.class]
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\TeamMemberMapper.class]
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Study\Swan\Essay\CompetitionManageSystem\backend\target\classes\com\competition\backend\mapper\UserMapper.class]
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'adminMapper' and 'com.competition.backend.mapper.AdminMapper' mapperInterface
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'adminMapper'.
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'announcementMapper' and 'com.competition.backend.mapper.AnnouncementMapper' mapperInterface
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'announcementMapper'.
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'competitionLevelMapper' and 'com.competition.backend.mapper.CompetitionLevelMapper' mapperInterface
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'competitionLevelMapper'.
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'competitionMapper' and 'com.competition.backend.mapper.CompetitionMapper' mapperInterface
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'competitionMapper'.
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'departmentMapper' and 'com.competition.backend.mapper.DepartmentMapper' mapperInterface
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'departmentMapper'.
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'hostUnitMapper' and 'com.competition.backend.mapper.HostUnitMapper' mapperInterface
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'hostUnitMapper'.
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'registrationMapper' and 'com.competition.backend.mapper.RegistrationMapper' mapperInterface
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'registrationMapper'.
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'scoreMapper' and 'com.competition.backend.mapper.ScoreMapper' mapperInterface
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'scoreMapper'.
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentMapper' and 'com.competition.backend.mapper.StudentMapper' mapperInterface
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentMapper'.
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'teacherMapper' and 'com.competition.backend.mapper.TeacherMapper' mapperInterface
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'teacherMapper'.
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'teamMapper' and 'com.competition.backend.mapper.TeamMapper' mapperInterface
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'teamMapper'.
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'teamMemberMapper' and 'com.competition.backend.mapper.TeamMemberMapper' mapperInterface
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'teamMemberMapper'.
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.competition.backend.mapper.UserMapper' mapperInterface
+2025-06-05 12:52:19 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-06-05 12:52:20 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-05 12:52:20 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-06-05 12:52:20 [main] INFO  o.a.c.c.C.[.[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2025-06-05 12:52:20 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-06-05 12:52:20 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-06-05 12:52:20 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 89d43442-9943-4457-9ace-20fd1d0b265b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-05 12:52:20 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@28989415, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6eda012b, org.springframework.security.web.context.SecurityContextPersistenceFilter@53d30d23, org.springframework.security.web.header.HeaderWriterFilter@2a5abd3c, org.springframework.security.web.authentication.logout.LogoutFilter@267ff4df, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6793f752, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@307af381, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@781dbe44, org.springframework.security.web.session.SessionManagementFilter@2ad7bd26, org.springframework.security.web.access.ExceptionTranslationFilter@61b838f2, org.springframework.security.web.access.intercept.AuthorizationFilter@1b17d8ab]
+2025-06-05 12:52:21 [main] INFO  c.c.backend.CompetitionApplication - Started CompetitionApplication in 3.444 seconds (JVM running for 4.84)
+2025-06-05 12:52:22 [main] INFO  c.c.b.c.ExcelTemplateInitializer - Excel模板生成成功

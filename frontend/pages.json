@@ -1,0 +1,217 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/competition/list",
+      "style": {
+        "navigationBarTitleText": "竞赛列表",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/competition/detail",
+      "style": {
+        "navigationBarTitleText": "竞赛详情"
+      }
+    },
+    {
+      "path": "pages/competition/register",
+      "style": {
+        "navigationBarTitleText": "竞赛报名"
+      }
+    },
+    {
+      "path": "pages/competition/my-competitions",
+      "style": {
+        "navigationBarTitleText": "我的竞赛",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/user/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/user/register",
+      "style": {
+        "navigationBarTitleText": "注册"
+      }
+    },
+    {
+      "path": "pages/user/profile",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path": "pages/user/edit-profile",
+      "style": {
+        "navigationBarTitleText": "编辑个人信息"
+      }
+    },
+	{
+	  "path": "pages/user/change-password",
+	  "style": {
+	    "navigationBarTitleText": "修改密码"
+	  }
+	},
+    {
+      "path": "pages/registration/list",
+      "style": {
+        "navigationBarTitleText": "报名查询",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/score/list",
+      "style": {
+        "navigationBarTitleText": "成绩查询",
+        "enablePullDownRefresh": true
+      }
+    },
+	{
+	  "path": "pages/score/detail",
+	  "style": {
+	    "navigationBarTitleText": "成绩详情",
+	    "enablePullDownRefresh": true
+	  }
+	},
+	{
+	  "path": "pages/teacher/score-manage",
+	  "style": {
+	    "navigationBarTitleText": "成绩录入",
+	    "enablePullDownRefresh": true
+	  }
+	},
+	{
+	  "path": "pages/teacher/score-detail",
+	  "style": {
+	    "navigationBarTitleText": "成绩详情",
+	    "enablePullDownRefresh": true
+	  }
+	},
+    {
+      "path": "pages/message/inbox",
+      "style": {
+        "navigationBarTitleText": "全部公告",
+        "enablePullDownRefresh": true
+      }
+    },
+	{
+	  "path": "pages/message/announcement",
+	  "style": {
+	    "navigationBarTitleText": "公告详情",
+	    "enablePullDownRefresh": true
+	  }
+	},
+    {
+      "path": "pages/admin/manage",
+      "style": {
+        "navigationBarTitleText": "管理后台",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/competition/competition-manage",
+      "style": {
+        "navigationBarTitleText": "竞赛管理",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/admin/user-manage",
+      "style": {
+        "navigationBarTitleText": "用户管理",
+        "enablePullDownRefresh": true
+      }
+    },
+	{
+		"path": "pages/admin/adduser",
+		"style": {
+			"navigationBarTitleText": "添加用户",
+			"enablePullDownRefresh": true
+		}
+	},
+	{
+		"path": "pages/admin/notice-manage",
+		"style": {
+			"navigationBarTitleText": "公告管理",
+			"enablePullDownRefresh": true
+		}
+	},
+	{
+		"path": "pages/admin/unit-manage",
+		"style": {
+			"navigationBarTitleText": "单位管理",
+			"enablePullDownRefresh": true
+		}
+	},
+	{
+		"path": "pages/admin/department-manage",
+		"style": {
+			"navigationBarTitleText": "院系管理",
+			"enablePullDownRefresh": true
+		}
+	},
+	{
+	"path": "pages/statistics/department-registration",
+		"style": {
+			"navigationBarTitleText": "数据统计",
+			"enablePullDownRefresh": true
+		}
+	},
+    {
+      "path": "pages/teacher/registration-review",
+      "style": {
+        "navigationBarTitleText": "报名审核",
+        "enablePullDownRefresh": true
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "竞赛管理系统",
+    "navigationBarBackgroundColor": "#7799CC",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/tabbar/home.png",
+        "selectedIconPath": "static/images/tabbar/home_.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/competition/list",
+        "iconPath": "static/images/tabbar/work.png",
+        "selectedIconPath": "static/images/tabbar/work_.png",
+        "text": "竞赛"
+      },
+      {
+        "pagePath": "pages/user/profile",
+        "iconPath": "static/images/tabbar/mine.png",
+        "selectedIconPath": "static/images/tabbar/mine_.png",
+        "text": "我的"
+      }
+    ]
+  }
+} 
